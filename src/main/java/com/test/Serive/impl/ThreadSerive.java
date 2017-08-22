@@ -1,12 +1,11 @@
-package com.forezp.Serive.impl;
-import com.forezp.entity.Thread;
-import com.forezp.Serive.IThreadSerive;
+package com.test.Serive.impl;
+import com.test.entity.Thread;
+import com.test.Serive.IThreadSerive;
 
-import com.forezp.dao.impl.ThreadDaoImpl;
+import com.test.dao.impl.ThreadDaoImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
 @Service
 public class ThreadSerive implements IThreadSerive {
     @Autowired

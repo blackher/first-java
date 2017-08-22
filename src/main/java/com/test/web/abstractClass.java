@@ -1,4 +1,4 @@
-package com.forezp.web;
+package com.test.web;
 
 public abstract class abstractClass {
     int number;

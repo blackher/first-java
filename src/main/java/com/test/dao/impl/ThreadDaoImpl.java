@@ -1,7 +1,7 @@
-package com.forezp.dao.impl;
+package com.test.dao.impl;
 
-import com.forezp.dao.IThreadDao;
-import com.forezp.entity.Thread;
+import com.test.dao.IThreadDao;
+import com.test.entity.Thread;
 
 
 import org.springframework.beans.factory.annotation.Autowired;

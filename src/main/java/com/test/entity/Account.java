@@ -1,4 +1,4 @@
-package com.forezp.entity;
+package com.test.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

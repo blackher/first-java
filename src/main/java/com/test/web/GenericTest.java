@@ -1,7 +1,4 @@
-package com.forezp.web;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.test.web;
 
 public class GenericTest {
     public GenericTest(){

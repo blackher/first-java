@@ -1,9 +1,8 @@
-package com.forezp.web;
-import com.forezp.Serive.IThreadSerive;
-import com.forezp.Serive.impl.ThreadSerive;
+package com.test.web;
+import com.test.Serive.impl.ThreadSerive;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import com.forezp.entity.Thread;
+import com.test.entity.Thread;
 @RestController
 @RequestMapping("/thread")
 public class ThreadController {

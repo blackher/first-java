@@ -1,4 +1,4 @@
-package com.forezp.entity;
+package com.test.entity;
 
 public class Thread {
     private int id;

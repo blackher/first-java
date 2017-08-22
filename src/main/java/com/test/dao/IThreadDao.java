@@ -1,6 +1,6 @@
-package com.forezp.dao;
+package com.test.dao;
 
-import com.forezp.entity.Thread;
+import com.test.entity.Thread;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.forezp.web;
+package com.test.web;
 
 import java.lang.Runnable;
 class RunnableDemo implements Runnable {

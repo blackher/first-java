@@ -1,6 +1,4 @@
-package com.forezp.web;
-import java.util.Date;
-import java.util.Hashtable;
+package com.test.web;
 import java.util.*;
 
 public class dog extends Animal {

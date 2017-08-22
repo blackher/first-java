@@ -1,4 +1,4 @@
-package com.forezp.web;
+package com.test.web;
 
 public class Animal {
     String name;

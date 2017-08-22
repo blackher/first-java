@@ -1,4 +1,4 @@
-package com.forezp;
+package com.test;
 
 
 

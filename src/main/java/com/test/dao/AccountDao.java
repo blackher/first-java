@@ -1,6 +1,6 @@
-package com.forezp.dao;
+package com.test.dao;
 
-import com.forezp.entity.Account;
+import com.test.entity.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface AccountDao extends JpaRepository<Account,Integer> {

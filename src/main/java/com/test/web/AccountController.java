@@ -1,7 +1,7 @@
-package com.forezp.web;
+package com.test.web;
 
-import com.forezp.dao.AccountDao;
-import com.forezp.entity.Account;
+import com.test.dao.AccountDao;
+import com.test.entity.Account;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
