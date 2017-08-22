@@ -1,4 +1,4 @@
-package com.forezp;
+package com.test;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.junit.Assert.assertThat;
