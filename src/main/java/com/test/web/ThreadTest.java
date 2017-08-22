@@ -4,24 +4,28 @@ import java.lang.Runnable;
 class RunnableDemo implements Runnable {
     private Thread t;
     private String threadName;
-
-    RunnableDemo( String name) {
+    public volatile int count;
+    RunnableDemo( String name,int count) {
         threadName = name;
+        this.count =count;
         System.out.println("Creating " +  threadName );
     }
     
     public void run() {
+
         System.out.println("Running " +  threadName );
-        if(threadName =="thread-1"){
-            System.out.println("yeild"+threadName);
-            Thread.yield();
-        }
+
+//        if(threadName =="thread-1"){
+//            System.out.println("yeild"+threadName);
+//            Thread.yield();
+//        }
 
         try {
-            for(int i = 4; i > 0; i--) {
-                System.out.println("Thread: " + threadName + ", " + i);
+            for( int  i = 4; i > 0; i--) {
+                System.out.println("Thread: " + threadName + ", " + i+",count:"+count);
 
-                Thread.sleep(2000);
+                Thread.sleep(100);
+                count--;
 
             }
         }catch (InterruptedException e) {
@@ -42,9 +46,11 @@ class RunnableDemo implements Runnable {
 }
 public class ThreadTest{
     public static void main(String[] args){
-        RunnableDemo a = new RunnableDemo("thread-1");
+        int count = 10;
+        RunnableDemo a = new RunnableDemo("thread-1",count);
+        RunnableDemo b = new RunnableDemo("thread-2",count);
         a.start();
-        RunnableDemo b = new RunnableDemo("thread-2");
+
 
         b.start();
 
